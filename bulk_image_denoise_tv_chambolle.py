@@ -13,8 +13,8 @@ import os
 from skimage import io, color, restoration
 # import imageio
 
-input_folder = 'Data-Corn-Crack-NGXS-scaled/Cracked'
-output_folder = 'Data-Corn-Crack-NGXS-scaled-denoised/Cracked'
+input_folder = 'input_folder/images'
+output_folder = 'output_folder/denoised'
 
 # Create the output folder if it does not exist
 if not os.path.exists(output_folder):
